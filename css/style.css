@@ -28,3 +28,18 @@ body{
     border-radius: 5px;
 }
 
+/* Collection style */
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 26px;
+
+}
+.see-more{
+
+    background-image: linear-gradient(rgb(228, 68, 68), rgb(214, 126, 126));
+    color: black;
+    padding-left: 150px;
+
+}
+
