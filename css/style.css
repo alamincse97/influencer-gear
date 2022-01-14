@@ -42,4 +42,27 @@ body{
     padding-left: 150px;
 
 }
+/* Coollection owenar style */
 
+/* Contact Style */
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.contact-left img{
+    width: 100%;
+}
+.contact-right form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-field{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-family: inherit;
+    outline: 0;
+    border: 1px solid black;
+}
