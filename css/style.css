@@ -48,7 +48,11 @@ body{
 .contact{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 10% 5%;
+    padding-top: 30% 30%;
     gap: 30px;
+    
 }
 .contact-left img{
     width: 100%;
@@ -65,4 +69,17 @@ body{
     font-family: inherit;
     outline: 0;
     border: 1px solid black;
+}
+.con-head h2{
+    align-items: center;
+    padding: 10% ;
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    background-color: #000000;
+}
+.foo{
+    color: white;
 }
