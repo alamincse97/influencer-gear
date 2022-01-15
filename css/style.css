@@ -7,17 +7,13 @@ body{
     
 }
 .main-head{
-    padding: 100px 90px;
+    padding: 0% 10%;
     font-size: 20px;
 }
 .banner{
     display: flex;
     align-items: center;
-    padding: 100px 90px;
 
-}
-.font-size{
-    font-size: 50px;
 }
 .banner-right img{
     width: 440px;
@@ -25,11 +21,12 @@ body{
     transition: width 5s, height 5s, transform 5s;
 }
 .banner-right:hover{
-
+    
     transform: rotate(180deg);
 }
 .banner-left{
     margin-right: 10%;
+    padding: 0% 10%;
 }
 .primary-button{
     text-decoration: none;
@@ -45,7 +42,11 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 26px;
+    padding: 0% 10%;
 
+}
+.popular-collection {
+    padding: 0% 10%;
 }
 .see-more{
 
@@ -82,9 +83,8 @@ body{
     outline: 0;
     border: 1px solid black;
 }
-.con-head h2{
-    align-items: center;
-    padding: 10% ;
+.con-head {
+    padding: 0% 10%;
 }
 
 /* footer */
@@ -101,10 +101,13 @@ body{
 /* Mobile Devices */
 @media only screen and (max-width:577px){
     .container{
-        width: 100%;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        flex-direction: column
     }
     .banner, .collections, .contact{
         grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
     }
    .banner .banner-left, .banner-right{
         flex-direction: column;
