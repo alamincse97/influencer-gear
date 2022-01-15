@@ -83,3 +83,30 @@ body{
 .foo{
     color: white;
 }
+
+/* Media Queries */
+
+/* Mobile Devices */
+@media only screen and (max-width:577px){
+    .container{
+        width: 100%;
+    }
+    .banner, .collections, .contact{
+        grid-template-columns: repeat(1, 1fr);
+    }
+   .banner .banner-left, .banner-right{
+        flex-direction: column;
+    }
+}
+/* Tablet Devices */
+@media only screen and (min-width: 577px) and (max-width:768px){
+    .container{
+        width: 100%;
+    }
+    .collections, .contact{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .collections{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
