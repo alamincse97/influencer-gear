@@ -6,15 +6,27 @@ body{
     font-family: 'Poppins', sans-serif;
     
 }
-
+.main-head{
+    padding: 100px 90px;
+    font-size: 20px;
+}
 .banner{
     display: flex;
     align-items: center;
+    padding: 100px 90px;
 
+}
+.font-size{
+    font-size: 50px;
 }
 .banner-right img{
     width: 440px;
     height: 414px;
+    transition: width 5s, height 5s, transform 5s;
+}
+.banner-right:hover{
+
+    transform: rotate(180deg);
 }
 .banner-left{
     margin-right: 10%;
